@@ -236,10 +236,7 @@
       Hi Kinjal
       <span class="big-heart"></span>
     </h1>
-    <div class="subtitle">
-      I made a tiny thing just for you 💌
-    </div>
-
+   
     <div class="meter-label">Love meter: <span id="meterText">warming up…</span></div>
     <div class="meter">
       <div class="meter-fill" id="meterFill"></div>
@@ -276,8 +273,8 @@
         Kinjal, will you be my valentine?
       </div>
       <div class="btn-row">
-        <button onclick="sayYes()">Yes 💘</button>
-        <button id="noBtn" onclick="runAway()">No 🙈</button>
+	<button onclick="sayYes()">Yes 💘</button>
+	<button id="noBtn" class="secondary" onclick="runAway()">No 🙈</button>
       </div>
       <div class="small" id="hint"></div>
     </div>
@@ -288,9 +285,9 @@
         Yaaay! 🥹💞<br>
         Thank you, Kinjal. You just made my day.
       </div>
-      <div class="small">
-        (Screenshot this, because I’m definitely keeping it. 💖)
-      </div>
+	<div class="small">
+  	Screenshot this, coz I’m definitely keeping it 💖
+	</div>
     </div>
   </div>
 
